@@ -1,9 +1,10 @@
-import { useState } from 'react'
 import Home from './pages/Home.tsx'
+import Preloader from './widgets/Preloader/Preloader.tsx'
 
 function App() {
   return (
     <div className="App">
+      <Preloader />
       <Home />
     </div>
   )

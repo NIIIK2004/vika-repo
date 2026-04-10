@@ -1,0 +1,27 @@
+.progressText {
+    font-family: var(--font-heading);
+    font-weight: 500;
+    font-size: 82px;
+    line-height: 150%;
+    text-align: right;
+    color: var(--text-1);
+}
+
+.loadingText {
+    font-family: var(--font-heading);
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 150%;
+    color: var(--text-1);
+}
+
+.preloader {
+    position: fixed;
+    inset: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.7s ease;
+}
